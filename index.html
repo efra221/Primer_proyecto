@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Delicioso</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Restaurante Delicioso</h1>
+        <nav>
+            <a href="#menu">Menú</a>
+            <a href="#reservas">Reservas</a>
+            <a href="#reseñas">Reseñas</a>
+            <a href="#ubicacion">Ubicación</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de Menú -->
+        <section id="menu">
+            <h2>Menú</h2>
+            <div class="menu-item">
+                <h3>Pasta toscana</h3>
+                <p>Una deliciosa capa de pasta fresca intercalada con una mezcla de carnes sazonadas, queso ricotta
+                    cremoso y mozzarella derretida, todo cubierto con nuestra auténtica salsa de tomate casera, horneada
+                    a la perfección para un sabor irresistible.</p>
+                <p><strong>$32.700</strong></p>
+            </div>
+            <div class="menu-item">
+                <h3>Lasagna</h3>
+                <p>Pasta al dente servida con una exquisita combinación de pollo a la parrilla, vegetales frescos
+                    salteados y una salsa cremosa de queso parmesano con un toque de hierbas italianas, que evocan el
+                    sabor auténtico de la Toscana.</p>
+                <p><strong>$36.950</strong></p>
+            </div>
+        </section>
+
+        <!-- Sección de Reservas -->
+        <section id="reservas">
+            <h2>Reservas</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+
+                <button type="submit">Reservar</button>
+            </form>
+        </section>
+
+        <!-- Sección de Reseñas -->
+        <section id="reseñas">
+            <h2>Reseñas</h2>
+            <blockquote>
+                "La mejor experiencia culinaria que he tenido. ¡Volveré pronto!" - Luis.
+            </blockquote>
+            <blockquote>
+                "Increíble comida y servicio. Recomiendo las pastas." - Anguelie.
+            </blockquote>
+        </section>
+
+        <!-- Sección de Ubicación -->
+    <section id="ubicacion">
+        <h2>Ubicación</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.064561394498!2d-73.10717392500166!3d7.118517092885158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e683fe23a9338d9%3A0x9db9bbafb0267f55!2sRistorante%20La%20Toscana!5e0!3m2!1ses-419!2sco!4v1733260021400!5m2!1ses-419!2sco"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Restaurante Delicioso. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
